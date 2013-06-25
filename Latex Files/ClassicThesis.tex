@@ -1,0 +1,182 @@
+% **************************************************************************************************************
+% Note:
+%    * New enumeration (small caps): \begin{aenumerate} \end{aenumerate}
+%    * For margin notes: \marginpar or \graffito{}
+%    * Do not use bold fonts in this style, it is designed around them
+%    * Use tables as in the examples
+%    * See classicthesis-preamble.sty for useful commands
+% **************************************************************************************************************
+% To Do:
+%    * [medium] mathbb in section-titles/chapter-titles => disappears somehow in headlines!!!
+% **************************************************************************************************************
+\documentclass[ twoside,openright,titlepage,numbers=noenddot,headinclude,%1headlines,% letterpaper a4paper
+                footinclude=true,cleardoublepage=empty,abstractoff, % <--- obsolete, remove (todo)
+                BCOR=5mm,paper=letter,fontsize=11pt,%11pt,a4paper,%
+                ngerman,american,%
+                ]{scrreprt}
+
+%********************************************************************
+% Note: Make all your adjustments in here
+%*******************************************************
+\input{classicthesis-config}
+
+%********************************************************************
+% Hyphenation
+%*******************************************************
+%\hyphenation{put special hyphenation here}
+
+% ********************************************************************
+% GO!GO!GO! MOVE IT!
+%*******************************************************
+\begin{document}
+\frenchspacing
+\raggedbottom
+\selectlanguage{american} % american ngerman
+%\renewcommand*{\bibname}{new name}
+%\setbibpreamble{}
+\pagenumbering{roman}
+\pagestyle{plain}
+
+
+
+
+
+
+%********************************************************************
+% Frontmatter
+%*******************************************************
+%\include{FrontBackmatter/DirtyTitlepage}
+\include{FrontBackmatter/Titlepage}
+%\include{FrontBackmatter/Titleback}
+%\cleardoublepage\include{FrontBackmatter/Dedication}
+%\cleardoublepage\include{FrontBackmatter/Foreword}
+%\cleardoublepage\include{FrontBackmatter/Abstract}
+%\cleardoublepage\include{FrontBackmatter/Publication}
+\cleardoublepage\include{FrontBackmatter/Acknowledgments}
+\cleardoublepage\include{FrontBackmatter/Preface}
+\pagestyle{scrheadings}
+\cleardoublepage\include{FrontBackmatter/Contents}
+
+
+
+
+
+
+%********************************************************************
+% Mainmatter
+%*******************************************************
+\pagenumbering{arabic}
+%\setcounter{page}{90}
+% use \cleardoublepage here to avoid problems with pdfbookmark
+\cleardoublepage
+
+
+
+
+\part{Introduction}
+%\include{Chapters/01Intro/01LanguageLearning}
+\cleardoublepage
+\ctparttext{Introduction to linguistics terminology and the structure of the Dakota language.}
+
+
+
+
+
+
+\part{Phonology}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+\part{Conjugating Verbs}
+\include{Chapters/03ConjugatingVerbs/01VerbsInDakota}
+\include{Chapters/03ConjugatingVerbs/02Conjugations}
+\include{Chapters/03ConjugatingVerbs/03StativeVerbs}
+\include{Chapters/03ConjugatingVerbs/04ActiveVerbs}
+\include{Chapters/03ConjugatingVerbs/05ExceptionVerbs}
+\include{Chapters/03ConjugatingVerbs/06UsingVerbs}
+\cleardoublepage
+\ctparttext{The sounds of Da\d{k}ota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+
+\part{Modifying Verbs}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+\part{Mood \& Tense}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+\part{Verb Phrases}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+\part{Nouns}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+\part{Modifiers}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+
+\part{Other Parts of Speech}
+%\include{Chapters/02Phonology/01Phonetics}
+\cleardoublepage
+\ctparttext{The sounds of Dakota, the orthography used in this book, sound changes and fast speech.}
+
+
+
+
+
+
+% ********************************************************************
+% Backmatter
+%*******************************************************
+\appendix
+\cleardoublepage
+\part{Appendix}
+\include{Chapters/Appendicies/Chapter0A}
+%********************************************************************
+% Other Stuff in the Back
+%*******************************************************
+\cleardoublepage\include{FrontBackmatter/Bibliography}
+%\cleardoublepage\include{FrontBackmatter/Colophon}
+%\cleardoublepage\include{FrontBackmatter/Declaration}
+% ********************************************************************
+% Game Over: Restore, Restart, or Quit?
+%*******************************************************
+\end{document}
+% ********************************************************************

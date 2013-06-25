@@ -1,0 +1,29 @@
+\select@language {american}
+\vspace {-\cftbeforepartskip }
+\select@language {american}
+\contentsline {part}{i\hspace {1em}\spacedlowsmallcaps {Introduction}}{1}{part.1}
+\contentsline {part}{ii\hspace {1em}\spacedlowsmallcaps {Phonology}}{3}{part.2}
+\contentsline {part}{iii\hspace {1em}\spacedlowsmallcaps {Conjugating Verbs}}{5}{part.3}
+\contentsline {chapter}{\numberline {1}\spacedlowsmallcaps {Verbs in Dakota}}{7}{chapter.1}
+\contentsline {section}{\numberline {1.1}The Role of Verbs in Dakota}{7}{section.1.1}
+\contentsline {section}{\numberline {1.2}Classification of Verbs}{7}{section.1.2}
+\contentsline {subsection}{\numberline {1.2.1}Nuclear Roles}{7}{subsection.1.2.1}
+\contentsline {subsection}{\numberline {1.2.2}The Transitive-Intransitive Distinction}{7}{subsection.1.2.2}
+\contentsline {subsection}{\numberline {1.2.3}Verbs of One Argument}{7}{subsection.1.2.3}
+\contentsline {subsection}{\numberline {1.2.4}Verbs of Two Arguments}{7}{subsection.1.2.4}
+\contentsline {subsection}{\numberline {1.2.5}Verbs of Three or More Arguments}{7}{subsection.1.2.5}
+\contentsline {chapter}{\numberline {2}\spacedlowsmallcaps {Conjugations}}{9}{chapter.2}
+\contentsline {chapter}{\numberline {3}\spacedlowsmallcaps {Stative Verbs}}{11}{chapter.3}
+\contentsline {chapter}{\numberline {4}\spacedlowsmallcaps {Active Verbs}}{13}{chapter.4}
+\contentsline {chapter}{\numberline {5}\spacedlowsmallcaps {Exception Verbs}}{15}{chapter.5}
+\contentsline {chapter}{\numberline {6}\spacedlowsmallcaps {Using Verbs}}{17}{chapter.6}
+\contentsline {part}{iv\hspace {1em}\spacedlowsmallcaps {Modifying Verbs}}{19}{part.4}
+\contentsline {part}{v\hspace {1em}\spacedlowsmallcaps {Mood \& Tense}}{21}{part.5}
+\contentsline {part}{vi\hspace {1em}\spacedlowsmallcaps {Verb Phrases}}{23}{part.6}
+\contentsline {part}{vii\hspace {1em}\spacedlowsmallcaps {Nouns}}{25}{part.7}
+\contentsline {part}{viii\hspace {1em}\spacedlowsmallcaps {Modifiers}}{27}{part.8}
+\contentsline {part}{ix\hspace {1em}\spacedlowsmallcaps {Other Parts of Speech}}{29}{part.9}
+\contentsline {part}{x\hspace {1em}\spacedlowsmallcaps {Appendix}}{31}{part.10}
+\contentsline {chapter}{\numberline {A}\spacedlowsmallcaps {Appendix Test}}{33}{appendix.A}
+\contentsline {section}{\numberline {A.1}Appendix Section Test}{33}{section.A.1}
+\contentsline {section}{\numberline {A.2}Another Appendix Section Test}{33}{section.A.2}
